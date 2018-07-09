@@ -1,5 +1,5 @@
 {
-    "name": "barcode",
+    "name": "barcode/leonskd",
     "type": "library",
     "description": "Common Container Interface (PHP FIG PSR-11)",
     "keywords": ["barcode", "code128"],
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "barcode\\": "src/"
+            "barcode\\leondns\\": "src/"
         }
     },
     "extra": {
