@@ -1,14 +1,14 @@
 {
-    "name": "barcode/sdk",
+    "name": "barcode",
     "type": "library",
     "description": "Common Container Interface (PHP FIG PSR-11)",
     "keywords": ["barcode", "code128"],
-    "homepage": "https://github.com/",
+    "homepage": "https://github.com/leonxialei/barcode.git",
     "license": "MIT",
     "authors": [
         {
-            "name": "barcode",
-            "homepage": "http://xialei/"
+            "name": "leonxia",
+            "homepage": "https://github.com/leonxialei/barcode.git"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "barcode\\sdk\\": "src/"
+            "barcode\\": "src/"
         }
     },
     "extra": {
